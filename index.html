@@ -15,7 +15,7 @@
       <table style="width:100%;border:0;border-spacing:0;"><tbody>
         <tr>
           <td style="width:35%;vertical-align:top;padding-right:20px;">
-            <img src="images/profile.jpg" style="width:100%;border-radius:50%;">
+            <img src="images/profile.jpg" style="width:100%;aspect-ratio:1;border-radius:50%;object-fit:cover;object-position:center top;">
             <p style="text-align:center;margin-top:10px;">
               <a href="https://github.com/cucuwritescode">GitHub</a> / <a href="https://scholar.google.com/citations?user=dJ03W5YAAAAJ&hl=en&authuser=2">Google Scholar</a>
             </p>
@@ -25,7 +25,7 @@
               I'm a signal processing researcher, programmer, multi-instrumentalist, and composer from Buenos Aires.
             </p>
             <p>
-              I'm an incoming MASc Fellow at <a href="https://www.mit.edu/">MIT</a>, where my work focuses on signal processing, real-time systems, and machine learning for audio.
+              I'm a MASc Fellow at <a href="https://www.mit.edu/">MIT</a>, where my work focuses on signal processing, real-time systems, and machine learning for audio.
             </p>
             <p>
               I hold a BEng in Electronic Engineering from the University of York. My dissertation, supervised by <a href="https://scholar.google.com/citations?user=4MlV0jEAAAAJ&hl=pl">Dr. Karolina Prawda</a>, proposed <a href="https://cucuwritescode.github.io/demo-day/">Structured Pruning of Feedback Delay Networks</a>.
@@ -39,7 +39,17 @@
 
       <h2 style="margin-top:40px;">Publications</h2>
       <table style="border:0;border-spacing:0;"><tbody>
-        <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">1.</td><td style="padding:4px 0;">F. Franchino, S. Letz, J. Chowdhury, "<strong>A dual-mode FAUST-to-CLAP compilation system,</strong>" In <em>Proceedings of the International Faust Conference</em>, pp. 1, Cannes, FR, 2026. <a href="https://arxiv.org/abs/2606.13193">[arXiv]</a> <a href="https://github.com/cucuwritescode/faust2clap/tree/faust2clap-joss">[code]</a> <details style="display:inline;"><summary style="display:inline;cursor:pointer;color:#0000EE;text-decoration:underline;">[bib]</summary><pre style="background:#f4f4f4;padding:10px;margin-top:8px;font-size:12px;overflow-x:auto;">@inproceedings{faust2clap:2026,
+        <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">&#9656;</td><td style="padding:4px 0;"><strong>F. Franchino</strong>, S. J. Schlecht, "<em>Compiling Differentiable Audio Graphs to Real-Time DSP,</em>" <em>29th International Conference on Digital Audio Effects (DAFx)</em>, Demonstrations Track, Cambridge, MA, 2026. <a href="https://arxiv.org/abs/2606.21277">[arXiv]</a> <a href="https://github.com/cucuwritescode/adac">[code]</a> <details style="display:inline;"><summary style="display:inline;cursor:pointer;color:#0000EE;text-decoration:underline;">[bib]</summary><pre style="background:#f4f4f4;padding:10px;margin-top:8px;font-size:12px;overflow-x:auto;">@inproceedings{adac:2026,
+  url       = {https://arxiv.org/abs/2606.21277},
+  address   = {Cambridge, MA},
+  year      = {2026},
+  booktitle = {Proceedings of the 29th International Conference on Digital Audio Effects (DAFx)},
+  title     = {Compiling Differentiable Audio Graphs to Real-Time DSP},
+  author    = {Facundo Franchino and Sebastian J. Schlecht},
+}</pre></details></td></tr>
+        <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">&#9656;</td><td style="padding:4px 0;"><strong>F. Franchino</strong>, J. Chowdhury, J. W. Lee, S. Kim, M. Rau, "<em>Multi-View Subband Autoregressive Pole Harvesting for Modal Plate Identification,</em>" <em>DAFx Parameter Estimation Challenge</em>, Cambridge, MA, 2026.</td></tr>
+        <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">&#9656;</td><td style="padding:4px 0;">J. W. Lee, J. Chowdhury, <strong>F. Franchino</strong>, S. Kim, M. Rau, "<em>ALAMODE: Automated Learning of Acoustical Modal Parameters via Differential Evolution,</em>" <em>DAFx Parameter Estimation Challenge</em>, Cambridge, MA, 2026.</td></tr>
+        <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">&#9656;</td><td style="padding:4px 0;"><strong>F. Franchino</strong>, S. Letz, J. Chowdhury, "<em>A dual-mode FAUST-to-CLAP compilation system,</em>" <em>International Faust Conference</em>, Cannes, FR, 2026. <a href="https://arxiv.org/abs/2606.13193">[arXiv]</a> <a href="https://github.com/cucuwritescode/faust2clap/tree/faust2clap-joss">[code]</a> <details style="display:inline;"><summary style="display:inline;cursor:pointer;color:#0000EE;text-decoration:underline;">[bib]</summary><pre style="background:#f4f4f4;padding:10px;margin-top:8px;font-size:12px;overflow-x:auto;">@inproceedings{faust2clap:2026,
   url       = {https://ifc26.i3s.univ-cotedazur.fr/papers/LetzFranchino.pdf},
   address   = {Cannes, FR},
   pages     = {1},
@@ -48,22 +58,12 @@
   title     = {A Dual-Mode Faust-to-CLAP Compilation System},
   author    = {Facundo Franchino and St&eacute;phane Letz and Jatin Chowdhury},
 }</pre></details></td></tr>
-        <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">2.</td><td style="padding:4px 0;">F. Franchino, S. J. Schlecht, "<strong>Compiling Differentiable Audio Graphs to Real-Time DSP,</strong>" In <em>Proceedings of the 29th International Conference on Digital Audio Effects (DAFx)</em>, Demonstrations Track, Cambridge, MA, 2026. <a href="https://arxiv.org/abs/2606.21277">[arXiv]</a> <a href="https://github.com/cucuwritescode/adac">[code]</a> <details style="display:inline;"><summary style="display:inline;cursor:pointer;color:#0000EE;text-decoration:underline;">[bib]</summary><pre style="background:#f4f4f4;padding:10px;margin-top:8px;font-size:12px;overflow-x:auto;">@inproceedings{adac:2026,
-  url       = {https://arxiv.org/abs/2606.21277},
-  address   = {Cambridge, MA},
-  year      = {2026},
-  booktitle = {Proceedings of the 29th International Conference on Digital Audio Effects (DAFx)},
-  title     = {Compiling Differentiable Audio Graphs to Real-Time DSP},
-  author    = {Facundo Franchino and Sebastian J. Schlecht},
-}</pre></details></td></tr>
       </tbody></table>
 
       <h2 style="margin-top:40px;">Talks, Tutorials, Misc</h2>
       <table style="border:0;border-spacing:0;"><tbody>
-        <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">&#9656;</td><td style="padding:4px 0;">F. Franchino, J. Chowdhury, J. W. Lee, S. Kim, M. Rau, "<strong>Multi-View Subband Autoregressive Pole Harvesting for Modal Plate Identification,</strong>" Challenge entry submitted to the <em>1st DAFx Parameter Estimation Challenge (Task B)</em>, Boston, MA, 2026.</td></tr>
-        <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">&#9656;</td><td style="padding:4px 0;">J. W. Lee, J. Chowdhury, F. Franchino, S. Kim, M. Rau, "<strong>ALAMODE: Automated Learning of Acoustical Modal Parameters via Differential Evolution,</strong>" Challenge entry submitted to the <em>1st DAFx Parameter Estimation Challenge (Task A)</em>, Boston, MA, 2026.</td></tr>
         <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">&#9656;</td><td style="padding:4px 0;">S. J. Schlecht, F. Franchino, "<a href="https://dafx26.mit.edu/tutorials/"><strong>Feedback Delay Networks in Python: From Theory to Differentiable Design with pyFDN</strong></a>," <em>Tutorial at the International Conference on Digital Audio Effects (DAFx)</em>, Cambridge, MA, USA, 2026.</td></tr>
-        <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">&#9656;</td><td style="padding:4px 0;">F. Franchino, S. Letz, J. Chowdhury, "<a href="https://uoy.atlassian.net/wiki/spaces/AudioLab/pages/768114790/Facundo+Franchino"><strong>faust2clap: Integrating Faust DSP into the CLAP ecosystem</strong></a>," <em>Poster, Audio Developer Conference (ADC)</em>, Bristol, UK, 2025.</td></tr>
+        <tr><td style="padding:4px 8px 4px 0;vertical-align:top;">&#9656;</td><td style="padding:4px 0;"><strong>F. Franchino</strong>, S. Letz, J. Chowdhury, "<a href="https://uoy.atlassian.net/wiki/spaces/AudioLab/pages/768114790/Facundo+Franchino"><strong>faust2clap: Integrating Faust DSP into the CLAP ecosystem</strong></a>," <em>Poster, Audio Developer Conference (ADC)</em>, Bristol, UK, 2025.</td></tr>
       </tbody></table>
 
       <h2 style="margin-top:40px;">Research Interests</h2>
